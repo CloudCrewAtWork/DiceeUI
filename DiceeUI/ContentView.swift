@@ -28,7 +28,7 @@ struct ContentView: View {
                 .padding(.horizontal)
                 Spacer()
                 Button(action: {
-                    self.lefticeNumber = Int.random(in: 1...6)
+                    self.leftDiceNumber = Int.random(in: 1...6)
                     self.rightDiceNumber = Int.random(in: 1...6)
                 }) {
                     Text("Roll")
